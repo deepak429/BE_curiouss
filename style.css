@@ -1,4 +1,5 @@
 /* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Mea+Culpa&family=Secular+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -196,34 +197,14 @@ background-color: transparent;
   display: none;
 }
 
-.cover1_grid-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  min-height: 110vh;
-  /* justify-content: center; */
-}
-.cover1_grid-container .grid-item1{
-  border: 0px solid transparent;
-  background-image: url(./pic/cover/c1.1.png);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  position: relative;
-  /* width: 100%; */
-  /* height: auto; */
-  /* content: url(./pic/cover/c1.12.jpeg); */
-
-
-}
-.cover1_grid-container .grid-item2{
-border: 0px solid transparent;
-background-color: #8e8e8e;
-position: relative;
- 
- }
-
 /* Reponsive */
+@media (width<1360px){
+    .hero .row {
+      min-height:45vh;
+    }
+  }
+
 @media (width < 860px) {
-  
   #menu_toggle{
     display: block;
   }
@@ -289,12 +270,13 @@ position: relative;
 
   }
   .hero {
-    padding-top: 130px;
+    padding-top: 50px;
   }
   .hero .row {
     flex-direction: column;
     padding: 0 20px;
-    min-height: 100vh;
+    min-height: 65vh;
+
     justify-content: left;
   }
   .hero .row .column {
@@ -303,9 +285,20 @@ position: relative;
   .nav_logo img{
     display: none;
   }
+  .cover1{
+    max-height: 30vh;
+  /* height: auto; */
+  width: 100%;
+  height: auto;
+  }
+  .grid-container{
+    display: grid;
+  grid-template-rows: 50% 50%;
+  
+  }
 }
-
 @media (width < 672px) {
+
   .hero {
     padding-top: 80px;
   }
@@ -321,8 +314,88 @@ position: relative;
   .hero .row {
     flex-direction: column;
     padding: 0 20px;
-    min-height: 105vh;
+    min-height: 55vh;
     justify-content: left;
+    transition-delay: 0;
   }
 }
 
+@media(width < 500px){
+
+   .hero .row {
+    flex-direction: column;
+    padding: 0 20px;
+    min-height: 60vh;
+    justify-content: left;
+  }
+}
+@media(width < 360px){
+
+    .hero .row {
+     min-height: 70vh;
+   }
+ }
+
+
+
+/* cover 1 */
+  .grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+ 
+}
+.grid-item1 img{
+width: 100%;
+height: 100%;
+border: none;
+}
+.grid-item2{
+background-color: #666;
+}
+
+.grid-item2 h1{
+font-size: 160px;
+font-family: 'Mea Culpa', cursive;
+font-weight: lighter;
+color: #fff;
+margin-left: -215px;
+}
+.grid-item2 h2 {
+  margin-right: 35px;
+  margin-top: -145px;
+  text-align: end;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 85px;
+}
+.grid-item2 p{
+  color: #fff;
+  text-align: left;
+  margin: 73px 0 0 0px;
+  font-weight: bold;
+  right: 22px;
+  font-size: 30px;
+  width: 25rem;
+  padding: 20px;
+  
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}  */

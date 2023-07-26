@@ -43,7 +43,7 @@
 	margin-top: -4rem;
 }
 
-.gloss{
+/* .gloss{
   position: absolute;
   top:0;
 	z-index:200;
@@ -55,7 +55,7 @@
   transition:all .5s;
   transform: translateX(-50%) rotateY(0deg);
   transform-origin: left center;
-}
+} */
 
 .cover {
 	position: absolute;
@@ -101,9 +101,9 @@
 }
 
 .book:hover .description {
-    transform: translateX(20%);
+    transform: translateX(22%);
 }
-@media (width < 860px) {
+/* @media (width < 860px) {
 
   .book{
     margin-top: 2rem;
@@ -116,7 +116,7 @@
   }
 }
 
-@media (width < 660px) {
+@media (width < 661px) {
 
   .book{
     margin-top: 2rem;
@@ -127,4 +127,4 @@
     width: 220px;
     height:333px;
   }
-}
+} */
