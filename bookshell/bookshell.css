@@ -360,19 +360,17 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-1 .bk-back,
 .book-1 .bk-left,
 .book-1 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffffcc;
 
 }
 
 .book-1 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c1.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-1 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #c0b7b7;
 
 }
 .book-1 .bk-left h2 {
@@ -404,14 +402,12 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 }
 
 .book-2 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c2.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-2 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: rgba(0, 128, 0, 0.801);
 
 }
 .book-2 .bk-left h2 {
@@ -438,19 +434,17 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-3 .bk-back,
 .book-3 .bk-left,
 .book-3 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffffe1;
 
 }
 
 .book-3 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c3.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-3 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: rgba(225, 231, 225, 0.801);
 
 }
 .book-3 .bk-left h2 {
@@ -482,14 +476,12 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 }
 
 .book-4 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c4.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-4 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: rgba(225, 231, 225, 0.801);
 
 }
 .book-4 .bk-left h2 {
@@ -516,19 +508,19 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-5 .bk-back,
 .book-5 .bk-left,
 .book-5 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #525050ab;
 
 }
 
 .book-5 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c5.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-5 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+
+	background-color: #00000060;
+
 
 }
 .book-5 .bk-left h2 {
@@ -560,14 +552,12 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 }
 
 .book-6 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c6.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-6 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #ffffff;
 
 }
 .book-6 .bk-left h2 {
@@ -599,14 +589,12 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 }
 
 .book-7 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c7.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-7 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #ffffffd0;
 
 }
 .book-7 .bk-left h2 {
@@ -633,23 +621,21 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-8 .bk-back,
 .book-8 .bk-left,
 .book-8 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #202020ab;
 
 }
 
 .book-8 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c8.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-8 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #1b1a1ad0;
 
 }
 .book-8 .bk-left h2 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -672,19 +658,17 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-9 .bk-back,
 .book-9 .bk-left,
 .book-9 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #db2d2dab;
 
 }
 
 .book-9 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c9.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-9 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #b82323;
 
 }
 .book-9 .bk-left h2 {
@@ -711,23 +695,21 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-10 .bk-back,
 .book-10 .bk-left,
 .book-10 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #b9191963;
 
 }
 
 .book-10 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c10.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-10 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #a00000ec;
 
 }
 .book-10 .bk-left h2 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -750,20 +732,17 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-11 .bk-back,
 .book-11 .bk-left,
 .book-11 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffee0486;
 
 }
 
 .book-11 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c11.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-11 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
-
+	background-color: #ffee047a;
 }
 .book-11 .bk-left h2 {
 	color: #000000;
@@ -789,19 +768,17 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-12 .bk-back,
 .book-12 .bk-left,
 .book-12 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffff;
 
 }
 
 .book-12 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c12.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-12 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #ffffff;
 
 }
 .book-12 .bk-left h2 {
@@ -828,23 +805,21 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-13 .bk-back,
 .book-13 .bk-left,
 .book-13 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffff;
 
 }
 
 .book-13 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c13.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-13 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #ffffff;
 
 }
 .book-13 .bk-left h2 {
-	color: #000000;
+	color: #750404;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -867,23 +842,21 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-14 .bk-back,
 .book-14 .bk-left,
 .book-14 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffff;
 
 }
 
 .book-14 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c14.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-14 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #ffffff;
 
 }
 .book-14 .bk-left h2 {
-	color: #000000;
+	color: #3b00c4;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -906,23 +879,21 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-15 .bk-back,
 .book-15 .bk-left,
 .book-15 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffff;
 
 }
 
 .book-15 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c15.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-15 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #ffffff;
 
 }
 .book-15 .bk-left h2 {
-	color: #000000;
+	color: #02f7ff60;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -945,19 +916,19 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-16 .bk-back,
 .book-16 .bk-left,
 .book-16 .bk-front:after {
-	background-color: #ffffffab;
+
+	background-color: #d4c9c9;
 
 }
 
 .book-16 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c16.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-16 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+
+	background-color: #b6b0b0;
 
 }
 .book-16 .bk-left h2 {
@@ -984,23 +955,22 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-17 .bk-back,
 .book-17 .bk-left,
 .book-17 .bk-front:after {
-	background-color: #ffffffab;
+	
+	background-color: #f6be35;
 
 }
 
 .book-17 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c17.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-17 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+	background-color: #f6be35;
 
 }
 .book-17 .bk-left h2 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -1023,23 +993,22 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-18 .bk-back,
 .book-18 .bk-left,
 .book-18 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #66336e;
 
 }
 
 .book-18 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c18.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-18 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+
+	background-color: #66336e;
 
 }
 .book-18 .bk-left h2 {
-	color: #000000;
+	color: yellow;
 	font-size: 15px;
 	line-height: 40px;
 	padding-right: 8px;
@@ -1062,19 +1031,18 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-19 .bk-back,
 .book-19 .bk-left,
 .book-19 .bk-front:after {
-	background-color: #ffffffab;
+	background-color:rgb(255, 145, 0) ;
 
 }
 
 .book-19 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c19.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-19 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+
+	background-color: rgb(255, 145, 0);
 
 }
 .book-19 .bk-left h2 {
@@ -1101,19 +1069,17 @@ text-shadow: -1px 0 rgb(173, 170, 170), 0 1px rgb(172, 164, 164), 1px 0 rgb(158,
 .book-20 .bk-back,
 .book-20 .bk-left,
 .book-20 .bk-front:after {
-	background-color: #ffffffab;
+	background-color: #ffffffda;
 
 }
 
 .book-20 .bk-cover {
-	background-image: url(../3DBookShowcase/images/1.png);	
+	background-image: url(./image/c20.jpeg);	
 	background-repeat: no-repeat;
 	background-size: 300px 400px;
 }
 .book-20 .bk-back{
-	background-image: url(../3DBookShowcase/images/3.png);	
-	background-repeat: no-repeat;
-	background-size: 300px 400px;
+background-color: #fff;
 
 }
 .book-20 .bk-left h2 {
