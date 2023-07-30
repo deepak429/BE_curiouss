@@ -946,6 +946,7 @@ ul {
   .cover1 {
     min-height: 100vh;
     /* height: auto; */
+    display: none;
     width: 100%;
     height: auto;
   }
