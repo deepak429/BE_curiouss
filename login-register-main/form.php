@@ -1,22 +1,3 @@
-<?php
-
-if($_SERVER["REQUEST_METHOD"]=="POST"){
-include "db_connect.php";
-$username = $POST["username"];
-$user_email = $POST["email"];
-$user_password = $POST["password"];
-$user_rep_password = $post["cpassword"];
-$exists = false;
-if(($user_password == $user_rep_password) && $exists == false){
-   $sql = "insert into user(Username,Email_id,user_password)values('$username','$user_email','$user_password')";
-   $result = mysqli_quary($conn,$sql);
-   if($result){
-      die("error".error($result));
-   }
-}
-}
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +26,7 @@ if(($user_password == $user_rep_password) && $exists == false){
                <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-               <form action="#" class="login">
+               <form action="login.php" class="login" method="POST">
                   <div class="field">
                      <input type="text" placeholder="Email Address" name = "lemil" required>
                   </div>
@@ -63,7 +44,7 @@ if(($user_password == $user_rep_password) && $exists == false){
                      Not a member? <a href="">Signup now</a>
                   </div>
                </form>
-               <form action="<?php echo $_SERVER['PHP_SELF']; ?>" class="signup" method = "POST">
+               <form action="signup.php" class="signup" method = "POST">
                <div class="field">
                      <input type="text" placeholder="Username" name="username"required>
                   </div>

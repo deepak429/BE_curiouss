@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<!-- Coding by CodingNepal || www.codingnepalweb.com -->
 <html lang="en">
-
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Be curious</title>
 	<link rel="icon" type="image/x-icon" href="./pic/logo.svg">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -29,10 +27,11 @@
 					<h2 id="menu_logo" ><img src="./pic/logo_mobile.png"/>Be curious</h2> <span class="material-symbols-outlined" id="menu_toggle">
 						close
 					</span>
-					<li><a href="#" class="nav_link nv">Communities</a></li>
-					<li><a href="#" class="nav_link nv">Thoughtsters</a></li>
-					<li><a href="#" class="nav_link join">Join</a></li>
-					<li><img class="discord" src="./pic/discord icon/discord.png" alt=""></li>
+					<li><a href="#Communities" class="nav_link nv">Communities</a></li>
+					<li><a href="#thougher" class="nav_link nv">Thoughtsters</a></li>
+					<li><a href="./login-register-main/form.php" class="nav_link join">Join</a></li>
+					<li><a href="https://discord.gg/W58sEkNp"><img class="discord" src="./pic/discord icon/discord.png" alt=""></a></li>
+					
 
 				</ul>
 				<!-- <img src="images/bars.svg" alt="timesicon" /> -->
@@ -112,7 +111,8 @@
 		</div>
 		<div class="c3_grid-item2">
 			<li class="left"><img src="./pic/cover/c3.png" alt=""></li>
-			<li class="right"><img src="./pic/cover/c3.1.png" alt=""></li>
+			<li class="left1"><img src="./pic/cover/c3.1.png" alt=""></li>
+			<li class="right"><img src="./pic/mp1.png" alt=""></li>
 		</div>
 	</div>
 
@@ -135,7 +135,7 @@
 						<div class="bk-page">
 							<div class="bk-content bk-content-current">
 								
-								<p class="bk-content">The Power of Your Subconscious Mind, one of the most beloved and bestselling
+								<p class="bk-content"><p>The Power of Your Subconscious Mind, one of the most beloved and bestselling
 									inspirational guides of all time, shows how changing your thought patterns can
 									produce dramatic improvements in your life. Using practical, easy-to-understand
 									techniques and real-world case studies, Dr. Joseph Murphy reveals the vast
@@ -287,11 +287,12 @@
 					</div>
 				</li>
 			</ul>
+		<button class="btn" id="View-More" onclick="window.location.href='./bookshell/bookshell.html'">VIEW MORE<span class="material-symbols-outlined"></span></button>
 
 		</div>
 		<!-- /container -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="js/books1.js"></script>
+		<script src="./3DBookShowcase/js/books1.js"></script>
 		<script>
 			$(function () {
 
@@ -304,7 +305,7 @@
 
 
 
-	<div class="cover5_memb">
+	<div class="cover5_memb" id="thougher">
 		<div class="wrapper">
 			<h1 class="card_hading">Thoughtsters</h1>
 			<!-- <span class="material-symbols-outlined">
@@ -313,22 +314,27 @@
 			<ul class="carousel">
 				<li class="card">
 					<div class="img"><img src="./pic/employ/1.jpg" alt="img" draggable="false"></div>
-					<h2>Blanche Pearson</h2>
-					<span>Sales Manager</span>
+					<h2>Deepak Choudhary</h2>
+					<span>Web Developer</span>
 				</li>
 				<li class="card">
 					<div class="img"><img src="./pic/employ/2.jpg" alt="img" draggable="false"></div>
-					<h2>Joenas Brauers</h2>
+					<h2>Savyasachi Chaturvedi</h2>
 					<span>Web Developer</span>
 				</li>
 				<li class="card">
 					<div class="img"><img src="./pic/employ/3.jpg" alt="img" draggable="false"></div>
-					<h2>Lariach French</h2>
+					<h2>Sanyam Kumar</h2>
 					<span>Online Teacher</span>
 				</li>
 				<li class="card">
 					<div class="img"><img src="./pic/employ/4.jpg" alt="img" draggable="false"></div>
-					<h2>James Khosravi</h2>
+					<h2>Ravi</h2>
+					<span>Freelancer</span>
+				</li>
+				<li class="card">
+					<div class="img"><img src="./pic/employ/3.jpg" alt="img" draggable="false"></div>
+					<h2>Abhishek Kashav</h2>
 					<span>Freelancer</span>
 				</li>
 			</ul>
@@ -343,9 +349,9 @@
 	</div>
 	</div>
 
-	<div class="cover6_memb">
+	<div class="cover6_memb"id="Communities">
 		<h1>so what are you waiting for? </h1><br>
-
+ 
 		<div class="contact_form">
 			<h1 class="contect_us">Contact Us</h1>
 			<form onsubmit="sendEmail(); reset(); return false;">
@@ -356,8 +362,9 @@
 				<input class="submit_btn" type="submit" value="SUBMIT" />
 			</form>
 		</div>
+		<img class = "community_img"src="./pic/cover/c6.png" alt="">
 		<p>join our community and go on the transformational and fun journey with like minded people</p>
-		<button class="btn eliment">JOURNEY</button>
+		<button class="btn " id="eliment">JOURNEY</button>
 
 	</div>
 	<script src="https://smtpjs.com/v3/smtp.js">
@@ -416,9 +423,9 @@
 					<h4>follow us</h4>
 					<div class="social-links">
 						<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="https://chat.whatsapp.com/Dq98rHHdu3GHp349qRb4Du"><i class="fab fa-whatsapp"></i></a>
 						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-discord"></i></a>
+						<a href="https://discord.gg/W58sEkNp"><i class="fab fa-discord"></i></a>
 
 					</div>
 					<h2 class="footer_logo"><a href="#" style="color: white;"><img src="./pic/logo.svg" alt="logo" />Be
@@ -455,10 +462,11 @@
 	<script src="./prop/book/index.js"></script>
 	<script src="./3DBookShowcase/js/modernizr.custom.js"></script>
 	<script src="./3DBookShowcase/js/books1.js"></script>
-	<script src="script.js" defer></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+	<script src="./script.js" defer></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script> -->
+		
 
 </body>
 
